@@ -15,10 +15,10 @@ Welcome to **Global Travels**, a modern, high-conversion multi-page landing page
 
 ## ✨ **Key Features**
 *   **Premium Visuals**: Custom-designed hero sections with deep gradients, modern typography (Outfit and Inter from Google Fonts), and high-impact travel imagery.
-*   **Glassmorphism Navigation**: A sticky navbar with a Gaussian blur effect (`backdrop-filter`) for a contemporary, high-end feel.
+*   **Professional Navigation**: A sticky navbar with a clean, modern design that follows the user as they scroll.
 *   **Interactive Modal Simulation**: Implemented "Coming Soon" alerts on social links and interactive state-based contact form submission feedback.
-*   **Optimized Grid Layout**: A fully responsive destination showcase using **CSS Grid** (`grid-template-columns: repeat(auto-fit, ...)`), eliminating the need for complex media queries.
-*   **Zero-Conflict Styling**: By using an inline-only styling approach, the project ensures encapsulated design that never leaks to other components.
+*   **Responsive Layouts**: Fully responsive destination cards using **Flexbox**, ensuring the project looks great on mobile, tablet, and desktop.
+*   **Encapsulated Styling**: By using an inline-only styling approach, the project ensures clean design that never leaks to other components.
 
 ---
 
@@ -30,7 +30,7 @@ Welcome to **Global Travels**, a modern, high-conversion multi-page landing page
 
 ### 2. **Destinations Page**
 *   A curated gallery of hand-picked global locations.
-*   Showcases my ability to handle **Dynamic Data Mapping** from a component's state to a grid layout.
+*   Showcases my ability to handle **Dynamic Data Mapping** from a component's state to a responsive layout.
 
 ### 3. **About Us Page**
 *   Establishes brand identity and mission through a balanced text-and-image layout.

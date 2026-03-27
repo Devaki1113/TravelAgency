@@ -13,18 +13,16 @@ class App extends Component {
 
   render() {
     const navbarStyle = {
-      backgroundColor: 'rgba(255, 255, 255, 0.8)',
-      backdropFilter: 'blur(12px)',
-      WebkitBackdropFilter: 'blur(12px)',
+      backgroundColor: '#ffffff',
       padding: '1.25rem 4rem',
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      boxShadow: '0 4px 30px rgba(0, 0, 0, 0.03)',
+      boxShadow: '0 4px 15px rgba(0, 0, 0, 0.05)',
       position: 'sticky',
       top: 0,
       zIndex: 1000,
-      borderBottom: '1px solid rgba(255, 255, 255, 0.3)'
+      borderBottom: '1px solid #e5e7eb'
     };
 
     const logoStyle = {

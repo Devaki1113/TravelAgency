@@ -23,9 +23,10 @@ class Destinations extends Component {
       textAlign: 'center'
     };
 
-    const gridStyle = {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+    const flexGridStyle = {
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'center',
       gap: '3rem',
       marginTop: '4rem'
     };
@@ -36,7 +37,9 @@ class Destinations extends Component {
       overflow: 'hidden',
       boxShadow: '0 10px 40px rgba(0,0,0,0.06)',
       textAlign: 'left',
-      transition: 'transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)'
+      flex: '1 1 350px',
+      maxWidth: '400px',
+      transition: 'transform 0.4s ease'
     };
 
     return (
@@ -46,7 +49,7 @@ class Destinations extends Component {
           <p style={{ color: '#64748b', fontSize: '1.2rem', marginTop: '1rem' }}>Handpicked locations for your next big adventure.</p>
         </div>
 
-        <div style={gridStyle}>
+        <div style={flexGridStyle}>
           {this.state.destinations.map(dest => (
             <div key={dest.id} style={cardStyle}>
               <div style={{ position: 'relative', overflow: 'hidden' }}>
